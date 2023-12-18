@@ -13,7 +13,7 @@ if ($conn->connect_error) {
 }
 
 
-$Lucio = $_POST['nome'];
+$name = $_POST['nome'];
 $email = $_POST['email'];
 $idade = $_POST['idade'];
 
